@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/font-awesome.min.css">
+    <style type="text/css">
+      .footer a
+      {
+      color:#fff;
+      font-size:11px;
+      font-family: 'Montserrat','Open sans', Helvetica, Arial;
+      opacity:0.7;
+      }
+      .footer h3,.newsletter
+      {
+      font-size:12px;
+      font-weight:400;
+      margin-top:50px;
+      margin-bottom:20px;
+      margin-left:0px;
+      margin-right:0px;
+      }
+      ul.navbar-nav a {
+      color: #0000;
+      border-style: solid;
+      border-width: 0 0 2px 0;
+      border-color: #fff; }
+      ul.navbar-nav a:hover,
+      ul.navbar-nav a:visited,
+      ul.navbar-nav a:focus,
+      ul.navbar-nav a:active { background: #fff; }
+      ul.navbar-nav a:hover { border-color: #f14444;
+      background-color: #F8F8F8; }
+      .inner-div {
+      display: block;
+      margin: auto;
+      }
+      .contacts,.form-group,.form {
+      text-align: center;
+      }
+      .search {
+      width: 80%;
+      display: inline-block;
+      }
+      .price {
+      background-color: #E0E0E0;
+      }
+      .transition {
+    -webkit-transform: scale(0.5,0.5); 
+    -moz-transform: scale(1.00);
+    -o-transform: scale(1.6);
+    transform: scale(1.6);
+}
+#zoom{
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+}
+    </style>
+    <title>Product</title>
+    <script src="dist/js/jquery-1.10.2.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="page-container">
+      <!-- HEADER-->
+      <div class="header">
+        <nav class="navbar navbar-default">
+          <div style="padding-top:5px;" class="container">
+            <div class="row">
+              <div class="col-md-3 col-sm-12"><br><img src="image/excel.png" style="height:56px;display:block;margin:auto;"></div>
+              <div class="col-md-4 col-sm-12">
+                <div class="contacts">1.888.888.8888   Live Chat   My Account</div>
+                <hr>
+                <div>
+                  <div class="inner-div">
+                    <input type="text" placeholder="Search" class="form-control search">
+                    <button type="submit" class="btn btn-default">GO</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-12"><br><img id="brandlogo" src="image/logo.gif" style="height:56px;display:block;margin:auto;"></div>
+              <div class="col-md-2 col-sm-12"><br><img src="image/cart.png" style="height:56px;display:block;margin:auto;" alt="Cart">
+                <h6 style="text-align:center;">Cart</h6>
+              </div>
+            </div>
+            <div style="display:block;margin:auto;" class="row">
+              <ul class="nav navbar-nav hidden-sm hidden-xs">
+                <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Electronics <span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                              <li><a href="category.html">Mobiles</a></li>
+                              <li><a href="category.html">Laptops</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown">
+                           <a href="category.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fashion<span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                              <li><a href="category.html">Dress</a></li>
+                              <li><a href="category.html">Footwear</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Appliances<span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                              <li><a href="category.html">TV</a></li>
+                              <li><a href="category.html">Kitchen</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Audio <span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                              <li><a href="category.html">Speakers</a></li>
+                              <li><a href="category.html">Headphone</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Baby & Kids <span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                              <li><a href="category.html">Toys</a></li>
+                              <li><a href="category.html">Baby Care</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home & Furniture <span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                              <li><a href="category.html">Home Decor</a></li>
+                              <li><a href="category.html">Kitchen & Dining</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Books & More <span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                              <li><a href="category.html">Books</a></li>
+                              <li><a href="category.html">Gaming</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OFFERS <span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                              <li><a href="category.html">Top Offers</a></li>
+                              <li><a href="category.html">Crazy Deals</a></li>
+                           </ul>
+                        </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.container-fluid-->
+        </nav>
+      </div>
+      <!-- Content-->
+      <div class="container-fluid">
+        <div class="col-md-8">
+          <div class="row">
+            <ol style="margin-bottom: 0px;" class="breadcrumb">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="category.html">Category</a></li>
+              <li class="active">Product</li>
+            </ol>
+          </div>
+          <div style="padding-top:0px;" class="row">
+            <h2> Product Name</h2>
+            <hr>
+          </div>
+          <div class="row"><img src="image/ad.jpg" class="img-responsive"></div>
+          <hr>
+          <div style="padding-top:8px;padding-bottom:5px;" class="row">
+            <div class="col-md-3 hidden-xs hidden-sm"><img id="zoom" src="image/ad.jpg" style="width:90%;height:90%;"></div>
+            <div class="col-md-3 hidden-xs hidden-sm"><img src="image/ad.jpg" style="width:90%;height:90%;"></div>
+            <div class="col-md-3 hidden-xs hidden-sm"><img src="image/ad.jpg" style="width:90%;height:90%;"></div>
+            <div class="col-md-3 hidden-xs hidden-sm"><img src="image/ad.jpg" style="width:90%;height:90%;"></div>
+          </div>
+          <hr class="hidden-xs hidden-sm">
+          <div class="row">
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#home">Overview</a></li>
+              <li><a data-toggle="tab" href="#menu1">Specs</a></li>
+              <li><a data-toggle="tab" href="#menu2">Shipping</a></li>
+            </ul>
+            <div style="border:1px solid #C0C0C0;padding:5px;" class="tab-content">
+              <div id="home" class="tab-pane fade in active">
+                <h3>Overview</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              </div>
+              <div id="menu1" class="tab-pane fade">
+                <h3>Specs</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              </div>
+              <div id="menu2" class="tab-pane fade">
+                <h3>Shipping</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              </div>
+            </div>
+            <hr>
+            <div style="" class="row">
+              <div class="col-md-4">
+                <h3>Customer Reviews</h3>
+              </div>
+              <div class="col-md-4"></div>
+              <div style="margin-top:10px;" class="col-md-4">
+                <div class="form-group">
+                  <select id="" class="form-control">
+                    <option>Sort by Date</option>
+                    <option>Sort by Relevance</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div style="border:1px solid #C0C0C0; padding:5px;margin-left:0px;" class="row">
+              <div class="row">
+                <div class="col-md-4">
+                  <h4>Awesome product !</h4>
+                </div>
+                <div class="col-md-4"><img alt="rating" src="image/stars-5.png"></div>
+                <div class="col-md-4"></div>
+              </div>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div><br class="hidden-xs hidden-sm">
+          </div>
+        </div>
+        <div style="margin-top:9.5%;padding:10px;text-align:center;" class="col-md-4">
+          <div style="border:1px solid #C0C0C0;" class="col-md-12 price">
+            <h1>$ 9.99</h1>                  You saved $3.00(23%)<br><img alt="rating" src="image/stars-5.png">(3)<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book<br>
+            <hr>
+            <h4>Select Size</h4>
+            <div style="margin-left:0px;" class="row"><img alt="rating" src="image/s.jpg">&nbsp;&nbsp;&nbsp;<img alt="rating" src="image/m.jpg">&nbsp;&nbsp;&nbsp;<img alt="rating" src="image/l.jpg"></div><br>
+            <h4>Select Colour</h4>
+            <div style="margin-left:0px;" class="row"><img alt="rating" src="image/r.jpg">&nbsp;&nbsp;&nbsp;<img alt="rating" src="image/b.jpg"></div>
+            <hr>
+            <a href="payment.html"><button type="button" class="btn btn-primary btn-block">Add to cart</button></a><br>
+          </div>
+          <div style="margin-top:540px;" class="hidden-xs hidden-sm">
+            <h4>Recently Viewed</h4><br>
+            <div style="text-align:center;" class="col-md-12">
+              <div class="thumbnail">
+                     <a href="product.html"><img src="image/demo.png" style="height:200px;"></a>
+                     <div class="caption">
+                        <h3>Product name</h3>
+                        <p>$ 19.99 (40% off)</p>
+                        <p><a href="payment.html" class="btn btn-primary" role="button">Buy now</a> <a href="payment.html" class="btn btn-default" role="button">Add to cart</a></p>
+                     </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER-->
+      <div style="background:#222;color:#fff;margin-top:5px;" class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-xs-4 col-sm-4">
+              <div>
+                <h3>Information</h3>
+                <ul>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="">Delivery Information</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Terms & Conditions</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-4 col-sm-4">
+              <div>
+                <h3>Customer Service</h3>
+                <ul>
+                  <li><a href="contact.html" class="ajax_right">Contact Us</a></li>
+                  <li><a href="">Returns</a></li>
+                  <li><a href="">Site Map</a></li>
+                  <li><a href="">Shipping</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 social col-xs-4 col-sm-4">
+              <h3>Copyright</h3>
+              <ul class="social-network">
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                <li><a href=""><i class="fa fa-pinterest"></i></a></li>
+                <li><a href=""><i class="fa fa-rss"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 hidden-sm hidden-xs">
+              <form role="search" class="newsletter">
+                <h3>Subscribe</h3>
+                <div class="form-group">
+                  <input type="text" placeholder="Search" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-default">GO</button>
+              </form>
+            </div>
+          </div>
+          <div style="padding-top:5px;display:block;margin:auto;text-align:center;" class="row">Terms of Use | Privacy Policy | Mobile Site</div>
+          <div style="padding:5px;display:block;margin:auto;text-align:center;" class="row">2014 Copyright. Company Name.</div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function(){
+    $('#zoom').hover(function() {
+        $("#zoom").addClass('transition');
+    
+    }, function() {
+        $("#zoom").removeClass('transition');
+    });
+});
+    </script>
+  </body>
+</html>
